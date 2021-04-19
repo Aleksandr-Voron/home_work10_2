@@ -1,0 +1,146 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  background: #b07cf7;
+  height: 100vh;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 92px 0;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  margin-bottom: 30px;
+}
+
+.title {
+  width: 592px;
+  margin: 0 auto 50px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.pictures-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pictures__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 310px;
+  width: 33%;
+  text-align: left;
+  padding: 0 20px;
+  margin-right: 25px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.pictures__block:last-child {
+  margin-right: 0;
+}
+
+/* .pictures-wrapper:not(.pictures__block){
+  margin-right: 0px;
+} */
+
+.pictures-block_green {
+  background: url(../images/thumbnail.jpg) no-repeat;
+  background-size: cover;
+}
+
+.pictures-block_growing {
+  background: url(../images/thumbnail_two.jpg) no-repeat;
+  background-size: cover;
+}
+
+.pictures-block_food {
+  background: url(../images/thumbnail_three.jpg) no-repeat;
+  background-size: cover;
+}
+
+.pictures__info {
+  z-index: 9;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.pictures__subtitle {
+  z-index: 9;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+
+.gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-height: 151px;
+  width: 100%;
+  background: url(../images/Gradient.png) no-repeat;
+}
+
+.pictures__date {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: rgba(38, 38, 38, 0.5);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 19px;
+}
+
+.bold_text {
+  display: inline-block;
+  padding-top: 5px;
+  font-size: 21px;
+  line-height: 15px;
+}
+
+.button {
+  padding: 16px 43px;
+  background: #f72b3b;
+  color: #fff;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+}
+
+.section-blog_mg {
+  margin-top: 70px;
+}
